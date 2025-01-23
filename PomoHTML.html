@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      padding: 50px;
+    }
+    .timer {
+      font-size: 48px;
+      margin: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button.start {
+      background-color: #28a745;
+      color: white;
+    }
+    button.pause {
+      background-color: #ffc107;
+      color: white;
+    }
+    button.reset {
+      background-color: #dc3545;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pomodoro Timer</h1>
+  <div class="timer" id="timer">25:00</div>
+  <button class="start" id="start">Start</button>
+  <button class="pause" id="pause">Pause</button>
+  <button class="reset" id="reset">Reset</button>
+  <script src="script.js"></script>
+</body>
+</html>
